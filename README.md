@@ -8,7 +8,7 @@
   * separate the images in train/test and train an SVM \(support vector machine\) classifier
   * implement a sliding window search and classify each window as vehicle or non-vehicle
   * output a video with the detected vehicles positions drawn as bounding boxes
-* Result: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection](https://fgheorghe.gitbook.io/machine-learning/~/edit/primary/) 
+* Result: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection](https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection) 
 
 ## 17-01-04 - Project Name
 
