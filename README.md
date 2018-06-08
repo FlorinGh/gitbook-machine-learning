@@ -12,7 +12,7 @@
 * Actions:
   * compu
 
-## Self Driving Car - Behavioural Cloning Project
+## [Self Driving Car - Behavioural Cloning Project](https://fgheorghe.gitbook.io/machine-learning/behavioural-cloning)
 
 * Challenge:  train a convolution neural networks to clone driving behaviour using a realistic game to record training sets
 * Actions:
