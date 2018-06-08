@@ -5,4 +5,5 @@
 * [Behavioural Cloning](behavioural-cloning.md)
 * [Advanced Lane Finding](lane-finding.md)
 * [Vehicle Detection](vehicle-detection.md)
+* [Machine Learning Course](machine-learning-course.md)
 
