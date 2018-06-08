@@ -8,7 +8,7 @@
   * tools: Matlab / Octave
 * Results: [https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2](https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2)
 
-## [Self Driving Car - Traffic Signs Classifier](https://fgheorghe.gitbook.io/machine-learning/traffic-signs-classifier)
+## [Self Driving Car - Traffic Signs Classifier Project](https://fgheorghe.gitbook.io/machine-learning/traffic-signs-classifier)
 
 * Challenge: train a  convolution neural network to classify traffic signs images using the [German Traffic Sign Data set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs from the web
 * Actions:
@@ -52,15 +52,13 @@
   * output a video with the detected vehicles positions drawn as bounding boxes
 * Results: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection](https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection) 
 
-## Self Driving Car - Vehicle Detection Project
+## Data Science using Python
 
-* Challenge:  write a software pipeline to detect vehicles in a video taken while driving on a motorway
-* Actions: 
-  * extract features from images using HOG \(histogram of oriented gradients\)
-  * separate the images in train/test and train an SVM \(support vector machine\) classifier
-  * implement a sliding window search and classify each window as vehicle or non-vehicle
-  * output a video with the detected vehicles positions drawn as bounding boxes
-* Results: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection](https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection) 
+* Challenge:  learn and practice the nuts and bolts of manipulating, processing, cleaning and crunching data in Python
+* Actions:
+  * tools: numpy, pandas, matplotlib, Jupyter notebooks, scipy, scikit-learn
+* Results:
+  * [https://github.com/FlorinGh/intro-data-science-python](https://github.com/FlorinGh/intro-data-science-python)
 
 ## Self Driving Car - Vehicle Detection Project
 
