@@ -66,11 +66,9 @@
 
 ## [12 Steps to Navier-Stokes Equations](https://fgheorghe.gitbook.io/machine-learning/navier-stokes)
 
-* Challenge:  write a software pipeline to detect vehicles in a video taken while driving on a motorway
+* Challenge:  use computing capabilities of Python to solve the nonlinear coupled partial derivative equations that govern the dynamics of fluids, the Navier-Stokes equations.
 * Actions: 
-  * extract features from images using HOG \(histogram of oriented gradients\)
-  * separate the images in train/test and train an SVM \(support vector machine\) classifier
-  * implement a sliding window search and classify each window as vehicle or non-vehicle
-  * output a video with the detected vehicles positions drawn as bounding boxes
-* Results: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection](https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection) 
+  * creating implicit numerical schemes to solve ever increasing difficult simplified parts of the NS equations: linear convection, nonlinear convection, diffusion, Burgers' equation, Laplace equation, Poisson equation
+  * applying the full final code on two classical problems: cavity flow and channel flow
+* Results: [https://github.com/FlorinGh/12-steps-to-navier-stokes](https://github.com/FlorinGh/12-steps-to-navier-stokes)
 
