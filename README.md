@@ -64,7 +64,7 @@
   * [https://github.com/FlorinGh/learning-pandas-harrison](https://github.com/FlorinGh/learning-pandas-harrison)
   * [https://github.com/FlorinGh/data-representation-python](https://github.com/FlorinGh/data-representation-python)
 
-## Self Driving Car - Vehicle Detection Project
+## [12 Steps to Navier-Stokes Equations](https://fgheorghe.gitbook.io/machine-learning/navier-stokes)
 
 * Challenge:  write a software pipeline to detect vehicles in a video taken while driving on a motorway
 * Actions: 
