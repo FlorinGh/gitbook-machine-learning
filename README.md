@@ -56,9 +56,13 @@
 
 * Challenge:  learn and practice the nuts and bolts of manipulating, processing, cleaning and crunching data in Python
 * Actions:
-  * tools: numpy, pandas, matplotlib, Jupyter notebooks, scipy, scikit-learn
+  * tools: numpy, pandas, matplotlib, seaborn, Jupyter notebooks, scipy, scikit-learn
 * Results:
   * [https://github.com/FlorinGh/intro-data-science-python](https://github.com/FlorinGh/intro-data-science-python)
+  * [https://github.com/FlorinGh/algorithmic-toolbox-python](https://github.com/FlorinGh/algorithmic-toolbox-python)
+  * [https://github.com/FlorinGh/python-for-data-analysis-mckinney](https://github.com/FlorinGh/python-for-data-analysis-mckinney)
+  * [https://github.com/FlorinGh/learning-pandas-harrison](https://github.com/FlorinGh/learning-pandas-harrison)
+  * [https://github.com/FlorinGh/data-representation-python](https://github.com/FlorinGh/data-representation-python)
 
 ## Self Driving Car - Vehicle Detection Project
 
