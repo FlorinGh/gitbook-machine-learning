@@ -1,4 +1,4 @@
-# Vehicle Detection Project
+# Vehicle Detection
 
 ## Challenge
 
