@@ -6,11 +6,17 @@
 * Actions:
   * compu
 
-## Self Driving Car - Advanced Lane Finding Project
+## Self Driving Car - Traffic Signs Classifier
 
-* Challenge:  write a software pipeline to identify the lane boundaries in a video taken while driving on a motorway
+* Challenge: train a  convolution neural network to classify traffic signs images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs that you find on the web
 * Actions:
-  * compu
+  * Load the data set \(see below for links to the project data set\)
+  * Explore, summarize and visualize the data set
+  * Design, train and test a model architecture
+  * Use the model to make predictions on new images
+  * Analyze the softmax probabilities of the new images
+  * Summarize the results with a written report \(the present report\)
+* Results:
 
 ## [Self Driving Car - Behavioural Cloning Project](https://fgheorghe.gitbook.io/machine-learning/behavioural-cloning)
 
