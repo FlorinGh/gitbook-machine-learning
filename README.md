@@ -1,10 +1,6 @@
----
-description: >-
-  This is a log of personal projects in artificial intelligence and machine
-  learning.
----
-
 # Machine Learning Projects
+
+## This is a log of personal projects in artificial intelligence and machine learning.
 
 ## 2018-01-03 - Project Name
 
