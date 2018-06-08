@@ -1,6 +1,6 @@
 # Machine Learning Projects
 
-## **Machine Learning Course - Andrew Ng**
+## [**Machine Learning Course - Andrew Ng**](https://fgheorghe.gitbook.io/machine-learning/machine-learning-course)
 
 * Challenge:  learn the foundations of machine learning
 * Actions:
