@@ -1,6 +1,6 @@
 # Machine Learning Projects
 
-## Self Driving Car - Vehicle Detection Project
+## [Self Driving Car - Vehicle Detection Project](https://fgheorghe.gitbook.io/machine-learning/~/edit/primary/vehicle-detection)
 
 * Challenge:  write a software pipeline to detect vehicles in a video taken while driving on a motorway
 * Actions: 
