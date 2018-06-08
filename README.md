@@ -8,14 +8,12 @@
 
 ## [Self Driving Car - Traffic Signs Classifier](https://fgheorghe.gitbook.io/machine-learning/traffic-signs-classifier)
 
-* Challenge: train a  convolution neural network to classify traffic signs images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs that you find on the web
+* Challenge: train a  convolution neural network to classify traffic signs images using the [German Traffic Sign Data set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs from the web
 * Actions:
-  * Load the data set \(see below for links to the project data set\)
-  * Explore, summarize and visualize the data set
-  * Design, train and test a model architecture
-  * Use the model to make predictions on new images
-  * Analyze the softmax probabilities of the new images
-  * Summarize the results with a written report \(the present report\)
+  * explore, summarise and visualise the data set
+  * design, train and test a model architecture
+  * use the model to make predictions on new images
+  * analyse the softmax probabilities of the new images
 * Results: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier)
 
 ## [Self Driving Car - Behavioural Cloning Project](https://fgheorghe.gitbook.io/machine-learning/behavioural-cloning)
