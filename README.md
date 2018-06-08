@@ -6,7 +6,7 @@
 * Actions:
   * compu
 
-## [Self Driving Car - Traffic Signs Classifier](https://fgheorghe.gitbook.io/machine-learning/~/edit/primary/traffic-signs-classifier)
+## [Self Driving Car - Traffic Signs Classifier](https://fgheorghe.gitbook.io/machine-learning/traffic-signs-classifier)
 
 * Challenge: train a  convolution neural network to classify traffic signs images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs that you find on the web
 * Actions:
