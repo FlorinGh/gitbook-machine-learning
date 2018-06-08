@@ -1,22 +1,26 @@
 # Machine Learning Projects
 
-## [Self Driving Car - Advanced Lane Finding Project](https://fgheorghe.gitbook.io/machine-learning/lane-finding)
+## Self Driving Car - Advanced Lane Finding Project
 
 * Challenge:  write a software pipeline to identify the lane boundaries in a video taken while driving on a motorway
 * Actions:
   * compu
 
-## [Self Driving Car - Advanced Lane Finding Project](https://fgheorghe.gitbook.io/machine-learning/lane-finding)
+## Self Driving Car - Advanced Lane Finding Project
 
 * Challenge:  write a software pipeline to identify the lane boundaries in a video taken while driving on a motorway
 * Actions:
   * compu
 
-## [Self Driving Car - Advanced Lane Finding Project](https://fgheorghe.gitbook.io/machine-learning/lane-finding)
+## Self Driving Car - Behavioural Cloning Project
 
-* Challenge:  write a software pipeline to identify the lane boundaries in a video taken while driving on a motorway
+* Challenge:  train a convolution neural networks to clone driving behaviour using a realistic game to record training sets
 * Actions:
-  * compu
+  * use the simulator to collect data of good driving behaviour
+  * build a convolution neural network in Keras that predicts steering angles from images
+  * train and validate the model with a training and validation set
+  * test that the model successfully drives around track without leaving the road
+* Results: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr3-Behavioral-Cloning](https://github.com/FlorinGh/SelfDrivingCar-ND-pr3-Behavioral-Cloning)
 
 ## [Self Driving Car - Advanced Lane Finding Project](https://fgheorghe.gitbook.io/machine-learning/lane-finding)
 
