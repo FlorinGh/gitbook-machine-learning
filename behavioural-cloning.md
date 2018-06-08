@@ -1,4 +1,4 @@
-# Behavioural Cloning Project
+# Behavioural Cloning
 
 ## Challenge
 

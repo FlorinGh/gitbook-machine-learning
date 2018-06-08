@@ -3,5 +3,5 @@
 * [Machine Learning Projects](README.md)
 * [Advanced Lane Finding](lane-finding.md)
 * [Vehicle Detection](vehicle-detection.md)
-* [Behavioural Cloning Project](pr3.md)
+* [Behavioural Cloning](behavioural-cloning.md)
 
