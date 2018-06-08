@@ -1,10 +1,12 @@
 # Machine Learning Projects
 
-## Self Driving Car - Advanced Lane Finding Project
+## **Machine Learning Course - Andrew Ng**
 
-* Challenge:  write a software pipeline to identify the lane boundaries in a video taken while driving on a motorway
+* Challenge:  learn the foundations of machine learning
 * Actions:
-  * compu
+  * concepts: linear regression, logistic regression, regularisation, neural networks, support vector machines, dimensionality reduction, principal component analysis, k-means clustering,  anomaly detection, recommender systems, large scale machine learning
+  * tools: Matlab / Octave
+* Results: [https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2](https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2)
 
 ## [Self Driving Car - Traffic Signs Classifier](https://fgheorghe.gitbook.io/machine-learning/traffic-signs-classifier)
 
