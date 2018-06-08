@@ -52,7 +52,7 @@
   * output a video with the detected vehicles positions drawn as bounding boxes
 * Results: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection](https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection) 
 
-## Data Science using Python
+## [Data Science using Python](https://fgheorghe.gitbook.io/machine-learning/data-science-python)
 
 * Challenge:  learn and practice the nuts and bolts of manipulating, processing, cleaning and crunching data in Python
 * Actions:
