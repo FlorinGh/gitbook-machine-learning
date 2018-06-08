@@ -16,5 +16,5 @@
   * output a video with the detected vehicles positions drawn as bounding boxes
 * Results: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection](https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection) 
 
-[https://github.com/FlorinGh/SelfDrivingCar-ND-pr4-Advanced-Lane-Lines/blob/master/project\_video\_output.mp4](https://github.com/FlorinGh/SelfDrivingCar-ND-pr4-Advanced-Lane-Lines/blob/master/project_video_output.mp4)
+[https://www.youtube.com/watch?v=gWK9x5Xs\_TI](https://www.youtube.com/watch?v=gWK9x5Xs_TI)
 
