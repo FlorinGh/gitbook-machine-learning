@@ -16,5 +16,3 @@
   * output a video with the detected vehicles positions drawn as bounding boxes
 * Results: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection](https://github.com/FlorinGh/SelfDrivingCar-ND-pr5-Vehicle-Detection) 
 
- \[test\]\([https://www.youtube.com/watch?v=gWK9x5Xs\_TI](https://www.youtube.com/watch?v=gWK9x5Xs_TI)\)
-
