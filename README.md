@@ -1,6 +1,6 @@
 # Machine Learning Projects
 
-## Self Driving Car - Advanced Lane Finding Project
+## [Self Driving Car - Advanced Lane Finding Project](https://fgheorghe.gitbook.io/machine-learning/lane-finding)
 
 * Challenge:  write a software pipeline to identify the lane boundaries in a video taken while driving on a motorway
 * Actions:
