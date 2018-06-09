@@ -51,7 +51,7 @@ print("Number of classes = ", n_classes)
 
 Here is an exploratory visualization of the data set. It is a bins chart showing how the data is distributed between the train, validation and test sets. This also shows how many example there are for each class; the distribution between classes is not uniform, therefore some of the classes will train better; on the other hand we can see the same distribution for the validation and test cases, which is good as these will not be biassed.
 
-
+![](.gitbook/assets/dataset_visual%20%281%29.jpg)
 
 
 
