@@ -8,4 +8,5 @@
 * [Vehicle Detection](vehicle-detection.md)
 * [Data Science using Python](data-science-python.md)
 * [12 Steps to Navier-Stokes Equations](navier-stokes.md)
+* [Machine Learning and Computer Vision](ml-cv.md)
 
