@@ -10,7 +10,7 @@ Train a  convolution neural network to classify traffic signs images using the [
 
 ## Actions
 
-* explore, summarise and visualise the data set
+* install anaconda, setup an environment, install pandas, pickle,  tensorflow and openCV
 * design, train and test a model architecture
 * use the model to make predictions on new images
 * analyse the softmax probabilities of the new images
