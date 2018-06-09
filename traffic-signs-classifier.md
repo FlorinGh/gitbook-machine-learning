@@ -51,7 +51,9 @@ print("Number of classes = ", n_classes)
 
 Here is an exploratory visualization of the data set. It is a bins chart showing how the data is distributed between the train, validation and test sets. This also shows how many example there are for each class; the distribution between classes is not uniform, therefore some of the classes will train better; on the other hand we can see the same distribution for the validation and test cases, which is good as these will not be biassed.
 
-![Visualization](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_dataset_visual.jpg)
+
+
+
 
 #### Design and Test a Model Architecture
 
@@ -63,7 +65,7 @@ As a first step, I decided to convert the images to grayscale because this impro
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-![Grayscale](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_grayscale.jpg)
+
 
 As a second step, I normalized the image data because this proved to improve the accuracy with about 3.5%; this process also helps in speeding up training.
 
@@ -124,7 +126,9 @@ An iterative approach was chosen:
 
 I used 12 traffic signs that were not in the original data set:
 
-![New Traffic Signs](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_new_images.jpg)
+
+
+
 
 The fourth image might be difficult to classify because half of the sign is coverred in snow.
 
@@ -271,7 +275,7 @@ For the 12th image the top five soft max probabilities were: \[12, 14, 2, 13, 38
 | 0.00 | Yield |
 | 0.00 | Keep right |
 
-![New Traffic Signs Classification](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_new_images_softmax.jpg)
+#### 
 
 #### Optional: Visualizing the Neural Network
 
