@@ -20,7 +20,7 @@ The following concepts were studied:
 * **k-means clustering**: cluster index, cluster centroid, random initialisation, elbow method
 * **anomaly detection**: density estimation, normal vs anomalous, fraud detection, manufacturing, monitoring working parameters, Gaussian distribution, features, error analysis
 * **recommender system**s: content based recommendations, collaborative filtering, low rank matrix factorisation, mean normalisation, 
-* large scale machine learning
+* **large scale machine learning**: stochastic gradient descent, mini-batch gradient descent, online learning, map-reduce and data parallelism, 
 
 
 
