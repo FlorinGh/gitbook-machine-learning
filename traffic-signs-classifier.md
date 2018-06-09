@@ -1,12 +1,14 @@
 # Traffic Signs Classifier
 
-## Traffic Signs Classifier
+### Challenge
 
-## **Traffic Sign Recognition**
+Train a convolution neural network to classify traffic signs images using the [German Traffic Sign Data set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs from the web.
 
-### Writeup
 
-![](.gitbook/assets/tsc_dataset_visual.jpg)
+
+## 
+
+![](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_dataset_visual.jpg)
 
 **Build a Traffic Sign Recognition Project**
 
@@ -19,7 +21,7 @@ The steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report \(the present report\)
 
-![Classes](.gitbook/assets/tsc_traffic_signs.jpg)
+![Classes](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_traffic_signs.jpg)
 
 ### Rubric Points
 
@@ -47,7 +49,7 @@ I used the python to find information about the traffic signs data set:
 
 Here is an exploratory visualization of the data set. It is a bins chart showing how the data is distributed between the train, validation and test sets. This also shows how many example there are for each class; the distribution between classes is not uniform, therefore some of the classes will train better; on the other hand we can see the same distribution for the validation and test cases, which is good as these will not be biassed.
 
-![Visualization](.gitbook/assets/tsc_dataset_visual.jpg)
+![Visualization](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_dataset_visual.jpg)
 
 #### Design and Test a Model Architecture
 
@@ -59,7 +61,7 @@ As a first step, I decided to convert the images to grayscale because this impro
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-![Grayscale](.gitbook/assets/tsc_grayscale.jpg)
+![Grayscale](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_grayscale.jpg)
 
 As a second step, I normalized the image data because this proved to improve the accuracy with about 3.5%; this process also helps in speeding up training.
 
@@ -120,7 +122,7 @@ An iterative approach was chosen:
 
 I used 12 traffic signs that were not in the original data set:
 
-![New Traffic Signs](.gitbook/assets/tsc_new_images.jpg)
+![New Traffic Signs](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_new_images.jpg)
 
 The fourth image might be difficult to classify because half of the sign is coverred in snow.
 
@@ -267,7 +269,7 @@ For the 12th image the top five soft max probabilities were: \[12, 14, 2, 13, 38
 | 0.00 | Yield |
 | 0.00 | Keep right |
 
-![New Traffic Signs Classification](.gitbook/assets/tsc_new_images_softmax.jpg)
+![New Traffic Signs Classification](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_new_images_softmax.jpg)
 
 #### Optional: Visualizing the Neural Network
 
@@ -277,11 +279,9 @@ While neural networks can be a great learning device they are often referred to 
 
 Layer to focusses on the complete image taking into account a lot of details; as we goo deeper in the network, the amount of data is smaller for each image and fewer and fewer details are considered.
 
-### Challenge
+### 
 
-Train a convolution neural network to classify traffic signs images using the [German Traffic Sign Data set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs from the web.
-
-![](.gitbook/assets/tsc_traffic_signs.jpg)
+![](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_traffic_signs.jpg)
 
 ### Actions
 
