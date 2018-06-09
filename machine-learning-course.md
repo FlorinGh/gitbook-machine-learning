@@ -26,9 +26,7 @@ The following concepts were studied:
 
 ## Results
 
-The tool of choice for this course was Matlab; this was used to exemplify the concepts; no training, but learning the theory behind machine learning.
-
-Projects:
+The tool of choice for this course was Matlab / Octave; each machine learning algorithm was coded in a project.
 
 As a proof of accomplishment, the following certificate was issued: [https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2](https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2)​.
 
