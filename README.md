@@ -56,6 +56,8 @@
 
 * Challenge:  learn and practice the nuts and bolts of manipulating, processing, cleaning and crunching data in Python
 * Actions:
+  * Learning Pandas Library by Matt Harrison \[self paced study\]
+  * Python for Data Analysis by Wes McKinnney \[self paced study\]
   * tools: numpy, pandas, matplotlib, seaborn, Jupyter notebooks, scipy, scikit-learn
 * Results:
   * [https://github.com/FlorinGh/intro-data-science-python](https://github.com/FlorinGh/intro-data-science-python)
@@ -63,6 +65,16 @@
   * [https://github.com/FlorinGh/python-for-data-analysis-mckinney](https://github.com/FlorinGh/python-for-data-analysis-mckinney)
   * [https://github.com/FlorinGh/learning-pandas-harrison](https://github.com/FlorinGh/learning-pandas-harrison)
   * [https://github.com/FlorinGh/data-representation-python](https://github.com/FlorinGh/data-representation-python)
+
+## Machine Learning and Computer Vision
+
+* Challenge:  learn and practice machine learning and computer vision
+* Actions:
+  * Introduction to Machine Learning by Andreas Muller \[self paced study\]
+  * Hands-on Machine Learning with scikit-learn and TensorFlow by Aurelien Geron \[self paced study\]
+  * tools: scikit-learn, TensorFlow, keras, openCV, GPU 
+* Results:
+  * * 
 
 ## [12 Steps to Navier-Stokes Equations](https://fgheorghe.gitbook.io/machine-learning/navier-stokes)
 
