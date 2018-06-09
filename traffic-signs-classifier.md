@@ -4,6 +4,12 @@
 
 train a  convolution neural network to classify traffic signs images using the [German Traffic Sign Data set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs from the web
 
+[https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/output/traffic\_signs.jpg](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/output/traffic_signs.jpg)
+
+
+
+
+
 ## Actions
 
 * explore, summarise and visualise the data set
