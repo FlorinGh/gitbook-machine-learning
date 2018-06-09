@@ -8,13 +8,13 @@ Learn the foundations of machine learning.
 
 The following concepts were studied:
 
-* linear regression,
-* logistic regression,
-* regularisation,
-* neural networks,
-* support vector machines,
-* dimensionality reduction,
-* principal component analysis,
+* linear regression: training set, features, target variable, hypothesis, learning algorithm, parameters, cost function, optimisation problem, gradient descent, learning rate, batch gradient descent
+* logistic regression
+* regularisation
+* neural networks
+* support vector machines
+* dimensionality reduction
+* principal component analysis
 * k-means clustering
 * anomaly detection
 * recommender systems
