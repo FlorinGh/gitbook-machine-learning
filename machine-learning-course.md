@@ -22,8 +22,6 @@ The following concepts were studied:
 * **recommender system**s: content based recommendations, collaborative filtering, low rank matrix factorisation, mean normalisation, 
 * **large scale machine learning**: stochastic gradient descent, mini-batch gradient descent, online learning, map-reduce and data parallelism, 
 
-
-
 ## Results
 
 The tool of choice for this course was Matlab / Octave; each machine learning algorithm was coded in a project.
