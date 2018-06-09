@@ -12,7 +12,8 @@ The following concepts were studied:
 * **multivariate linear regression**: feature scaling, mean normalisation, choosing learning rate, normal equation
 * **logistic regression**: classification, logistic function, sigmoid function, decision boundary, nonlinear decision boundaries, cost function, optimisation algorithms, multiclass classification, one-vs-all
 * **regularisation**: overfitting, regularisation parameter, regularised linear regression, regularised logistic regression
-* **neural networks**: computer vision, sigmoid activation function, layers, bias, forward propagation, nonlinear classification, back propagation algorithm, random initialisation, 
+* **neural networks**: computer vision, sigmoid activation function, layers, bias, forward propagation, nonlinear classification, back propagation algorithm, random initialisation
+* **model selection**: training / validation / test sets, diagnosing bias and variance, cross validation error, regularisation, learning curves, high bias, high variance
 * support vector machines
 * dimensionality reduction
 * principal component analysis
