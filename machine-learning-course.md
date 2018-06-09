@@ -19,7 +19,7 @@ The following concepts were studied:
 * **principal component analysis**: dimensionality reduction, data compression, data visualisation, covariance matrix sigma, eigenvectors of sigma, reconstruction from compressed representation, number pf principal components, learning speedup
 * **k-means clustering**: cluster index, cluster centroid, random initialisation, elbow method
 * **anomaly detection**: density estimation, normal vs anomalous, fraud detection, manufacturing, monitoring working parameters, Gaussian distribution, features, error analysis
-* recommender systems
+* **recommender system**s: content based recommendations, collaborative filtering, low rank matrix factorisation, mean normalisation, 
 * large scale machine learning
 
 
