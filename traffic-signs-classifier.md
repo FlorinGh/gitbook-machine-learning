@@ -1,6 +1,6 @@
 # Traffic Signs Classifier
 
-## Challenge
+Challenge
 
 Train a convolution neural network to classify traffic signs images using the [German Traffic Sign Data set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs from the web.
 
@@ -17,8 +17,6 @@ Train a convolution neural network to classify traffic signs images using the [G
 ![](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_dataset_visual.jpg)
 
 
-
-![Classes](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_traffic_signs.jpg)
 
 ### Rubric Points
 
