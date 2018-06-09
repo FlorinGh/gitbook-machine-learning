@@ -66,7 +66,7 @@
   * [https://github.com/FlorinGh/learning-pandas-harrison](https://github.com/FlorinGh/learning-pandas-harrison)
   * [https://github.com/FlorinGh/data-representation-python](https://github.com/FlorinGh/data-representation-python)
 
-## Machine Learning and Computer Vision
+## [Machine Learning and Computer Vision](https://fgheorghe.gitbook.io/machine-learning/machine-learning-study)
 
 * Challenge:  learn and practice machine learning and computer vision
 * Actions:
