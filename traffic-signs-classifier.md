@@ -14,23 +14,35 @@ Train a convolution neural network to classify traffic signs images using the [G
 * use the model to make predictions on new images
 * analyse the softmax probabilities of the new images
 
-
-
-
-
-**Here I will consider the** [**rubric points**](https://review.udacity.com/#!/rubrics/481/view) **individually and describe how I addressed each point in my implementation.**
-
-#### Writeup
-
-**1. Provide a Writeup that includes all the rubric points and how you addressed each one. The submission includes the project code.**
-
-You're reading it! and here is a link to my [project code](https://github.com/FlorinGh/SelfDrivingCarND-pr2-TrafficSignClassifier/blob/master/Traffic_Sign_Classifier.ipynb)
-
-#### Data Set Summary & Exploration
-
-**1. Provide a basic summary of the data set.**
+### Data Set Summary & Exploration
 
 I used the python to find information about the traffic signs data set:
+
+```text
+### Replace each question mark with the appropriate value. 
+### Use python, pandas or numpy methods rather than hard coding the results
+
+# TODO: Number of training examples
+n_train = X_train.shape[0]
+
+# TODO: Number of validation examples
+n_validation = X_valid.shape[0]
+
+# TODO: Number of testing examples.
+n_test = X_test.shape[0]
+
+# TODO: What's the shape of an traffic sign image?
+image_shape = X_train.shape[1:3]
+
+# TODO: How many unique classes/labels there are in the dataset.
+n_classes = 1 + y_train.max()
+
+print("Number of training examples =", n_train)
+print("Number of validation examples =", n_validation)
+print("Number of testing examples =", n_test)
+print("Image data shape =", image_shape)
+print("Number of classes =", n_classes)
+```
 
 * The size of training set is 34799
 * The size of the validation set is 4410
@@ -278,7 +290,7 @@ Layer to focusses on the complete image taking into account a lot of details; as
 
 ### 
 
-### Results
+## Results
 
 [https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier)
 
