@@ -1,25 +1,22 @@
 # Traffic Signs Classifier
 
-### Challenge
+## Challenge
 
 Train a convolution neural network to classify traffic signs images using the [German Traffic Sign Data set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs from the web.
 
-![](.gitbook/assets/traffic_signs%20%281%29.jpg)
+![German Traffic Sign Data Set Classes](.gitbook/assets/traffic_signs%20%281%29.jpg)
 
-## 
+## Actions
+
+* install anaconda, setup an environment, install pandas, pickle,  tensorflow and openCV
+* explore, summarise and visualise the data set
+* design, train and test a model architecture
+* use the model to make predictions on new images
+* analyse the softmax probabilities of the new images
 
 ![](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_dataset_visual.jpg)
 
-**Build a Traffic Sign Recognition Project**
 
-The steps of this project are the following:
-
-* Load the data set \(see below for links to the project data set\)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report \(the present report\)
 
 ![Classes](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_traffic_signs.jpg)
 
@@ -283,15 +280,7 @@ Layer to focusses on the complete image taking into account a lot of details; as
 
 ![](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_traffic_signs.jpg)
 
-### Actions
-
-* install anaconda, setup an environment, install pandas, pickle,  tensorflow and openCV
-* explore, summarise and visualise the data set
-  * the traffic signs data was already split in training, validation and test sets
-  * 
-* design, train and test a model architecture
-* use the model to make predictions on new images
-* analyse the softmax probabilities of the new images
+### 
 
 ### Results
 
