@@ -16,7 +16,7 @@ The following concepts were studied:
 * **model selection**: training / validation / test sets, diagnosing bias and variance, cross validation error, regularisation, learning curves, high bias, high variance, error analysis, precision, recall, F1 score
 * **support vector machines**: SVM hypotesis, large margin classifier,  kernels, similarity, Gaussian kernel, linear kernel, polynomial kernel, 
 * **unsupervised learning**: clustering, K-means
-* principal component analysis
+* **principal component analysis**: dimensionality reduction, data compression, data visualisation
 * k-means clustering: cluster index, cluster centroid, random initialisation, elbow method, 
 * anomaly detection
 * recommender systems
