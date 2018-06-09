@@ -8,9 +8,10 @@ Learn the foundations of machine learning.
 
 The following concepts were studied:
 
-* linear regression: training set, features, target variable, hypothesis, learning algorithm, parameters, cost function, optimisation problem, gradient descent, learning rate, batch gradient descent
-* logistic regression
-* regularisation
+* **linear regression**: training set, features, target variable, hypothesis, learning algorithm, parameters, cost function, optimisation problem, gradient descent, learning rate, batch gradient descent
+* **multivariate linear regression**: feature scaling, mean normalisation, choosing learning rate, normal equation
+* **logistic regression**: classification, logistic function, sigmoid function, decision boundary, nonlinear decision boundaries, cost function, optimisation algorithms, multiclass classification, one-vs-all
+* **regularisation**: overfitting, regularisation parameter, regularised linear regression, regularised logistic regression
 * neural networks
 * support vector machines
 * dimensionality reduction
