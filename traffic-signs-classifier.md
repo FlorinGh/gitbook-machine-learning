@@ -14,9 +14,13 @@ Train a convolution neural network to classify traffic signs images using the [G
 * use the model to make predictions on new images
 * analyse the softmax probabilities of the new images
 
+### Tools
+
+This project used a combination of Python, pandas, matplotlib, openCV and tensorflow gpu. These tools are installed in a anaconda environment and ran in a Jupyter notebook. The complete project implementation is available here: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/Traffic\_Sign\_Classifier.ipynb](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/Traffic_Sign_Classifier.ipynb).
+
 ### Data Set Summary & Exploration
 
-I used the python to find information about the traffic signs data set:
+The data was was already split in train / validation and test; using a few lines of code we inspect the data set:
 
 ```python
 # Number of training examples
@@ -33,12 +37,6 @@ image_shape = X_train.shape[1:3]
 
 # How many unique classes/labels are in the dataset?
 n_classes = 1 + y_train.max()
-
-print("Number of training examples = ", n_train)
-print("Number of validation examples = ", n_validation)
-print("Number of testing examples = ", n_test)
-print("Image data shape = ", image_shape)
-print("Number of classes = ", n_classes)
 ```
 
 * The size of training set is 34799
@@ -47,15 +45,19 @@ print("Number of classes = ", n_classes)
 * The shape of a traffic sign image is 32 x 32 pixels
 * The number of unique classes/labels in the data set is 43
 
-**2. Include an exploratory visualization of the dataset.**
+The data is composed of 32 x 32 pixel images containing traffic signs; there are 43 different traffic signs; each type will be assign a number from 0 to 42 representing the class ID; we will train a model to estimate the ID based on the input image; then, with the predicted ID we can search in a table the corresponding sign name.
 
-Here is an exploratory visualization of the data set. It is a bins chart showing how the data is distributed between the train, validation and test sets. This also shows how many example there are for each class; the distribution between classes is not uniform, therefore some of the classes will train better; on the other hand we can see the same distribution for the validation and test cases, which is good as these will not be biassed.
+A bin chart was created to visualise the train, validation and test sets:
+
+* this chart works a frequency plot: it shows how many example we have for each of the classes
+* as we can see, for  a given set, the distribution is not uniform between classes; on the other hand, this distribution is kept for all sets; this will ensure that the train will not skew the model to a specific class
+* This also shows how many example there are for each class; the distribution between classes is not uniform, therefore some of the classes will train better; on the other hand we can see the same distribution for the validation and test cases, which is good as these will not be biassed.
 
 ![](.gitbook/assets/dataset_visual%20%281%29.jpg)
 
 
 
-#### Design and Test a Model Architecture
+### Design and Test a Model Architecture
 
 **1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques?**
 
