@@ -20,7 +20,7 @@ This project used a combination of Python, pandas, matplotlib, openCV and tensor
 
 The complete project implementation is available here: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/Traffic\_Sign\_Classifier.ipynb](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/Traffic_Sign_Classifier.ipynb).
 
-### Data Set Summary & Exploration
+### Data Set Summary and Exploration
 
 The data provided was already split in train, validation and test; using a few lines of code we inspect the data set:
 
@@ -91,6 +91,17 @@ X_test = (X_test_gray-128.0)/128.0
 from sklearn.utils import shuffle
 X_train, y_train = shuffle(X_train, y_train, random_state=23)
 ```
+
+An iterative approach was taken in order to design the neural network:
+
+* started from the **LeNet-5** architecture and tested it on the coloured images, with an accuracy of 88.1%; I chose the LeNet-5 because it was the single complete net that I've used successfully before.
+* this architecture was actually created for a simpler problem, MNIST, with only one channel of data and only 10 classes; so it was expected to have lower accuracy than on MNIST
+* trying to improve accuracy I first did a couple of studies to see the effect of changing the **batch size** and **learning rate** on the accuracy; decided that 128 and 0.001 were the best values
+* then I switched to **tensorflow-gpu** and increased the number of epochs from 10 to 300 and this gave an improvement of about 2%, getting to 90.2%
+* then I applied **normalisation**, which increased the accuracy by another 3.6%, getting to 93.8% on the test data, and 95% on the validation data; these values are above the threshold for submitting, but I knew I could do better
+* applying **grayscale** didn't improve much the accuracy, I only won a bit on speed
+* the last bit I added in is **dropout**; added this on all layer except the first and last, dropout probability was 0.75 for training and 1.0 for evaluations; this increased accuracy to 95.0% on test set.
+* **Lessons learned**: colours don't matter much in the machine world; always normalise to make all numbers in the same range \(this gave the biggest improvement in accuracy\); use dropout, make it harder to train in order to make in easier at the test
 
 The final architecture consisted of the following layers:
 
@@ -191,16 +202,7 @@ My final model results were:
 * validation set accuracy of 95.5%
 * test set accuracy of 95.0%
 
-An iterative approach was chosen:
 
-* Started from the LeNet lab architecture and tested it on the colored images, with an accuracy of 88.1% \(take these values with a pinch of salt as they change slightly when the dataset is re-shuffled\); I chose the LeNet because it was the single complete net that I've used successfuly before.
-* This architecture was actually created for simpler problem, MNIST, with only one chanel of data and only 10 classes; so it was expected to have a low accuracy.
-* Trying to improve accuracy I first did a couple of studies to see the effect of changing the batch size and learning rate on the accuracy; decided that 128 and 0.001 were the best values.
-* Then I switched to tensorflow-gpu and increased the number of epochs from 10 to 300 and this an improvement of about 2%, getting to 90.2%; while this helps, it is not enough
-* Then I applied normalization, which increased the accuracy by another 3.6%, getting to 93.8% on the test data, and 95% on the validation data; these values are above the threshold for submitting, but I knew I can do a bit better.
-* Applying grayscale didn't improve much the accuracy, I only won a bit of speed
-* The last bit I added in is dropout; added this on all layer expect the fisrt and last, dropout probability was 0.75 for training and 1.0 for evaluations; this increased accuracy to 95.0% on test set.
-* Lessons learned: colors don't matter much in the machine world; always normalize to make all numbers in the same range; make it harder to train \(use dropout\) in order to make in easier at the test
 
 ### Test a Model on New Images
 
