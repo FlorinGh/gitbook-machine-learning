@@ -2,11 +2,11 @@
 
 ## [**Machine Learning Course - Andrew Ng**](https://fgheorghe.gitbook.io/machine-learning/machine-learning-course)
 
-* Challenge:  learn the foundations of machine learning
-* Actions:
+* **Challenge**:  learn the foundations of machine learning
+* **Actions**:
   * concepts: linear regression, logistic regression, regularisation, neural networks, support vector machines, dimensionality reduction, principal component analysis, k-means clustering,  anomaly detection, recommender systems, large scale machine learning
   * tools: Matlab / Octave
-* Results: [https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2](https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2)
+* **Results**: [https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2](https://www.coursera.org/account/accomplishments/certificate/WLHZZ6TPVVM2)
 
 ## [Self Driving Car - Traffic Signs Classifier Project](https://fgheorghe.gitbook.io/machine-learning/traffic-signs-classifier)
 
