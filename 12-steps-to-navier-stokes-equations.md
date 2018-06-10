@@ -85,7 +85,7 @@ pl.title('2D Nonlinear Convection: Solution')
 # because the equations are symetrical, the plots are identical
 ```
 
-![](.gitbook/assets/nonlinear_2d_solution_1.png)
+![](.gitbook/assets/nonlin_conv_2d_solution_2.png)
 
 * diffusion:
 
