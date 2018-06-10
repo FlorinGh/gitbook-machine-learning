@@ -78,6 +78,10 @@ As a last step in preprocess, the training dataset was suffled for a better dist
 
 My final model consisted of the following layers:
 
+
+
+
+
 | Layer | Description |
 | :---: | :---: |
 | Input | 32x32x1 Grayscale image |
@@ -121,7 +125,7 @@ An iterative approach was chosen:
 * The last bit I added in is dropout; added this on all layer expect the fisrt and last, dropout probability was 0.75 for training and 1.0 for evaluations; this increased accuracy to 95.0% on test set.
 * Lessons learned: colors don't matter much in the machine world; always normalize to make all numbers in the same range; make it harder to train \(use dropout\) in order to make in easier at the test
 
-#### Test a Model on New Images
+### Test a Model on New Images
 
 **1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.**
 
@@ -278,7 +282,7 @@ For the 12th image the top five soft max probabilities were: \[12, 14, 2, 13, 38
 
 #### 
 
-#### Optional: Visualizing the Neural Network
+### Visualizing the Neural Network
 
 **1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?**
 
