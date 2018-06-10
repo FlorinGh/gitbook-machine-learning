@@ -229,133 +229,13 @@ Image no.4 might be difficult to classify because half of the sign is covered in
 | Speed limit \(50km/h\) | Speed limit \(50km/h\) |
 | Priority road | Priority road |
 
-The model was able to correctly guess 11 out of 12 traffic signs, which gives an accuracy of 91.7%. This compares favourably to the accuracy on the test set of 95.0%
+The model was able to correctly guess 11 out of 12 traffic signs, which gives an accuracy of 91.7%. This compares favourably to the accuracy on the test set of 95.0%.
 
-**3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.**
+In the following we can see the top 5 softmax probabilities for each of the 12 new traffic signs:
 
-For the 1st image the top five soft max probabilities were:
+![Top 5 softmax probabilities for each of the 12 new traffic signs](.gitbook/assets/new_images_softmax.jpg)
 
-| Probability | Prediction |
-| :---: | :---: |
-| 1.00 | Go straight or left |
-| 0.00 | Roundabout mandatory |
-| 0.00 | Ahead only |
-| 0.00 | Keep left |
-| 0.00 | Speed limit \(30km/h\) |
-
-For the 2nd image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 1.00 | Keep right |
-| 0.00 | Yield |
-| 0.00 | Turn left ahead |
-| 0.00 | Priority road |
-| 0.00 | Go straight or right |
-
-For the 3rd image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 0.93 | No entry |
-| 0.06 | Stop |
-| 0.00 | Keep right |
-| 0.00 | Speed limit \(120km/h\) |
-| 0.00 | Roundabout mandatory |
-
-For the 4th image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 1.00 | No vehicles |
-| 0.00 | No passing |
-| 0.00 | Speed limit \(120km/h\) |
-| 0.00 | Speed limit \(50km/h\) |
-| 0.00 | Speed limit \(70km/h\) |
-
-For the 5th image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 0.78 | Speed limit \(70km/h\) |
-| 0.17 | Speed limit \(30km/h\) |
-| 0.03 | Speed limit \(50km/h\) |
-| 0.02 | Keep right |
-| 0.00 | Go straight or left |
-
-For the 6th image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 1.00 | Yield |
-| 0.00 | Priority road |
-| 0.00 | No passing |
-| 0.00 | Ahead only |
-| 0.00 | Road work |
-
-For the 7th image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 1.00 | Road work |
-| 0.00 | Dangerous curve to the right |
-| 0.00 | Bumpy road |
-| 0.00 | Beware of ice/snow |
-| 0.00 | Bicycles crossing |
-
-For the 8th image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 0.90 | Speed limit \(20km/h\) |
-| 0.07 | Speed limit \(30km/h\) |
-| 0.02 | Roundabout mandatory |
-| 0.01 | Speed limit \(120km/h\) |
-| 0.01 | Speed limit \(70km/h\) |
-
-For the 9th image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 1.00 | Ahead only |
-| 0.00 | Go straight or right |
-| 0.00 | Turn left ahead |
-| 0.00 | No vehicles |
-| 0.00 | Speed limit \(60km/h\) |
-
-For the 10th image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 0.60 | Stop |
-| 0.07 | Speed limit \(30km/h\) |
-| 0.06 | Keep right |
-| 0.05 | Turn right ahead |
-| 0.03 | Keep left |
-
-For the 11th image the top five soft max probabilities were:
-
-| Probability | Prediction |
-| :---: | :---: |
-| 1.00 | Speed limit \(50km/h\) |
-| 0.00 | Speed limit \(30km/h\) |
-| 0.00 | Speed limit \(80km/h\) |
-| 0.00 | Roundabout mandatory |
-| 0.00 | Speed limit \(60km/h\) |
-
-For the 12th image the top five soft max probabilities were: \[12, 14, 2, 13, 38\]
-
-| Probability | Prediction |
-| :---: | :---: |
-| 1.00 | Priority road |
-| 0.00 | Stop |
-| 0.00 | Speed limit \(50km/h\) |
-| 0.00 | Yield |
-| 0.00 | Keep right |
-
-#### 
-
-### Visualizing the Neural Network
+### Visualising the Neural Network
 
 **1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?**
 
