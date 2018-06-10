@@ -202,15 +202,11 @@ My final model results were:
 * validation set accuracy of 95.5%
 * test set accuracy of 95.0%
 
-
-
 ### Test a Model on New Images
 
 To test my model I used 12 traffic signs that were not in the original data set:
 
 ![12 new images to test the trained model](.gitbook/assets/new_images.jpg)
-
-
 
 Image no.4 might be difficult to classify because half of the sign is covered in snow. In the table below are listed the predictions using the trained network:
 
