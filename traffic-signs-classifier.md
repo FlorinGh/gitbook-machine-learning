@@ -245,7 +245,7 @@ For instance, layer two focuses on the complete image taking into account a lot 
 
 ## Results
 
-Using LeNet-5 as a starting point, a neural network architecture was developed to classify the German traffic signs; several technologies were learned along the way such as: tensorflow-gpu, grayscale, normalisation, activation with RELU, dropout, how to save and recall a trained model.
+Using LeNet-5 as a starting point, a neural network architecture was developed to classify the German traffic signs; several technologies were learned along the way such as: tensorflow-gpu, neural networks architectures, grayscale, normalisation, types of layers, convolution, pooling, activation with RELU, dropout, how to save and recall a trained model.
 
 In the end the network performance is the following:
 
