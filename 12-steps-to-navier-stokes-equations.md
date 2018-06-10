@@ -8,12 +8,11 @@ Use computing capabilities of Python to solve the nonlinear coupled partial deri
 
 * creating implicit numerical schemes to solve ever increasing difficult components of the NS equations
 * linear convection
-
-
-
 * nonlinear convection
 
+![](.gitbook/assets/2d_linear_conv_initial_conditions.png)
 
+![](.gitbook/assets/2d_linear_conv_solution.png)
 
 * diffusion
 

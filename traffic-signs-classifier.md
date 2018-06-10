@@ -4,7 +4,7 @@
 
 Train a convolution neural network to classify traffic signs images using the [German Traffic Sign Data set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset); with the trained model classify traffic signs from the web.
 
-![German Traffic Sign Data Set Classes](.gitbook/assets/traffic_signs%20%281%29.jpg)
+![German Traffic Sign Data Set Classes](.gitbook/assets/traffic_signs.jpg)
 
 ## Actions
 
@@ -54,7 +54,7 @@ A bin chart was created to visualise the train, validation and test sets:
 * this chart works a frequency plot: it shows how many example we have for each of the classes
 * for any given set, the distribution is not uniform between classes; but this distribution is kept for all sets; this will ensure that the train will not bias the model toward a specific class
 
-![Train, validation and test sets show in a bins chart](.gitbook/assets/dataset_visual%20%281%29.jpg)
+![Train, validation and test sets show in a bins chart](.gitbook/assets/dataset_visual.jpg)
 
 ### Design and Test a Model Architecture
 
