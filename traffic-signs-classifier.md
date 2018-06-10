@@ -58,9 +58,33 @@ A bin chart was created to visualise the train, validation and test sets:
 
 ### Design and Test a Model Architecture
 
-**1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques?**
+The starting point for this project was LeNet-5 architecture with a change in pre-processing and the number of classes; given the training accuracy with the original architecture was below the accepted threshold, some improvements have been made; training was performed using tensorflow-gpu 1.6.
 
-The process is based mainly on LeNet lab; given the training accuracy was below the accepted threshold, some improvements have been made. For trainig I used tensorflow-gpu 1.6.
+Preprocessing consisted in:
+
+* grayscale all images to remove the complexity of a 3 layer data to one; I was noticed that the colour information adds complexity with no additional accuracy
+
+```python
+# Grayscale
+import cv2
+
+X_trainG = np.zeros(shape=(len(X_train),32,32))
+for i in range(len(X_train)):
+    X_trainG[i]= cv2.cvtColor(X_train[i].squeeze(), cv2.COLOR_RGB2GRAY)
+```
+
+![Example of a traffic sign before and after grayscale](.gitbook/assets/grayscale.jpg)
+
+* normalisation: we have to make sure the data has mean zero and equal variance; given the images are now grayscale, each pixel has a value between 0 and 127; applying `(pixel - 128)/ 128` is a quick way to approximately normalise the data
+
+```python
+# Normalization
+X_train = (X_train_gray-128.0)/128.0
+X_valid = (X_valid_gray-128.0)/128.0
+X_test = (X_test_gray-128.0)/128.0
+```
+
+* shuffle
 
 As a first step, I decided to convert the images to grayscale because this improved the speed of the training. Grayscale by itself doesn't improve accuracy, but it helps in speeding up the proccess.
 
