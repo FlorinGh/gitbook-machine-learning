@@ -20,7 +20,7 @@ This project used a combination of Python, pandas, matplotlib, openCV and tensor
 
 ### Data Set Summary & Exploration
 
-The data was was already split in train / validation and test; using a few lines of code we inspect the data set:
+The data provided was already split in train, validation and test; using a few lines of code we inspect the data set:
 
 ```python
 # Number of training examples
@@ -50,10 +50,9 @@ The data is composed of 32 x 32 pixel images containing traffic signs; there are
 A bin chart was created to visualise the train, validation and test sets:
 
 * this chart works a frequency plot: it shows how many example we have for each of the classes
-* as we can see, for  a given set, the distribution is not uniform between classes; on the other hand, this distribution is kept for all sets; this will ensure that the train will not skew the model to a specific class
-* This also shows how many example there are for each class; the distribution between classes is not uniform, therefore some of the classes will train better; on the other hand we can see the same distribution for the validation and test cases, which is good as these will not be biassed.
+* for any given set, the distribution is not uniform between classes; but this distribution is kept for all sets; this will ensure that the train will not bias the model toward a specific class
 
-![](.gitbook/assets/dataset_visual%20%281%29.jpg)
+![Train, validation and test sets show in a bins chart](.gitbook/assets/dataset_visual%20%281%29.jpg)
 
 
 
