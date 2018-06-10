@@ -16,7 +16,9 @@ Train a convolution neural network to classify traffic signs images using the [G
 
 ### Tools
 
-This project used a combination of Python, pandas, matplotlib, openCV and tensorflow gpu. These tools are installed in a anaconda environment and ran in a Jupyter notebook. The complete project implementation is available here: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/Traffic\_Sign\_Classifier.ipynb](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/Traffic_Sign_Classifier.ipynb).
+This project used a combination of Python, pandas, matplotlib, openCV and tensorflow gpu. These tools are installed in a anaconda environment and ran in a Jupyter notebook.
+
+The complete project implementation is available here: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/Traffic\_Sign\_Classifier.ipynb](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier/blob/master/Traffic_Sign_Classifier.ipynb).
 
 ### Data Set Summary & Exploration
 
@@ -54,15 +56,13 @@ A bin chart was created to visualise the train, validation and test sets:
 
 ![Train, validation and test sets show in a bins chart](.gitbook/assets/dataset_visual%20%281%29.jpg)
 
-
-
 ### Design and Test a Model Architecture
 
 The starting point for this project was LeNet-5 architecture with a change in pre-processing and the number of classes; given the training accuracy with the original architecture was below the accepted threshold, some improvements have been made; training was performed using tensorflow-gpu 1.6.
 
 Preprocessing consisted in:
 
-* grayscale all images to remove the complexity of a 3 layer data to one; I was noticed that the colour information adds complexity with no additional accuracy
+* grayscale all images to remove the complexity of a 3 layer data to one; it was noticed that the colour information adds complexity with no additional accuracy; furthermore, using grayscale images significantly improves learning speed
 
 ```python
 # Grayscale
@@ -75,7 +75,7 @@ for i in range(len(X_train)):
 
 ![Example of a traffic sign before and after grayscale](.gitbook/assets/grayscale.jpg)
 
-* normalisation: we have to make sure the data has mean zero and equal variance; given the images are now grayscale, each pixel has a value between 0 and 127; applying `(pixel - 128)/ 128` is a quick way to approximately normalise the data
+* normalisation: we have to make sure the data has mean zero and equal variance; given the images are now grayscale, each pixel has a value between 0 and 255; applying `(pixel - 128)/128` is a quick way to approximately normalise the data; normalising images increased accuracy with about 3.5% and improved learning speed
 
 ```python
 # Normalization
@@ -92,51 +92,98 @@ from sklearn.utils import shuffle
 X_train, y_train = shuffle(X_train, y_train, random_state=23)
 ```
 
-As a first step, I decided to convert the images to grayscale because this improved the speed of the training. Grayscale by itself doesn't improve accuracy, but it helps in speeding up the proccess.
+The final architecture consisted of the following layers:
 
-Here is an example of a traffic sign image before and after grayscaling.
-
-
-
-As a second step, I normalized the image data because this proved to improve the accuracy with about 3.5%; this process also helps in speeding up training.
-
-I didn't use augmentation to add more data; the data set felt large enough to achive good results.
-
-As a last step in preprocess, the training dataset was suffled for a better distribution of classes.
-
-**2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.**
-
-My final model consisted of the following layers:
-
-
-
-
-
-| Layer | Description |
+| **Layer** | **Description** |
 | :---: | :---: |
-| Input | 32x32x1 Grayscale image |
+| Input | 32x32x1 Random, grayscale, normalised image |
 | Convolution 5x5 | 1x1 stride, valid padding, outputs 28x28x6 |
-| RELU |  |
+| RELU | Activation |
 | Max pooling | 2x2 stride, valid padding, outputs 14x14x6 |
 | Convolution 5x5 | 1x1 stride, valid padding, outputs 10x10x16 |
-| RELU |  |
+| RELU | Activation |
 | Max pooling | 2x2 stride, valid padding, outputs 5x5x16 |
 | Flatten | Outputs 400 |
-| Dropout |  |
+| Dropout | Ignore 25% of outputs |
 | Fully connected | Outputs 120 |
-| RELU |  |
-| Dropout |  |
+| RELU | Activation |
+| Dropout | Ignore 25% of outputs |
 | Fully connected | Outputs 84 |
-| RELU |  |
-| Dropout |  |
+| RELU | Activation |
+| Dropout | Ignore 25% of outputs |
 | Fully connected | Outputs 43 |
 | Softmax | Outputs 43 |
 
-**3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.**
+```python
+def LeNet(x):    
+# Layer 1:
+    #Convolutional. Input = 32x32x1. Output = 28x28x6.
+    # Filter size = H + 2*P - (h-1)*S = 32 + 2*0 - (28-1)*1 = 32 + 0 - 27 = 5
+    wL1 = tf.Variable(tf.truncated_normal([5,5,1,6], mean=mu, stddev=sigma))
+    bL1 = tf.Variable(tf.truncated_normal([6], mean=mu, stddev=sigma))
+    layer1 = tf.nn.conv2d(x, wL1, strides=[1,1,1,1], padding='VALID')
+    layer1 = tf.nn.bias_add(layer1, bL1)
+    
+    # Activation.
+    layer1 = tf.nn.relu(layer1)
+    
+    # Pooling. Input = 28x28x6. Output = 14x14x6.
+    layer1 = tf.nn.max_pool(layer1, ksize=[1,2,2,1], strides=[1,2,2,1], padding='VALID')
+    
+# Layer 2:
+    # Convolutional. Input = 14x14x6. Output = 10x10x16.
+    # Filter size = H + 2*P - (h-1)*S = 14 + 0 - 9 = 5
+    wL2 = tf.Variable(tf.truncated_normal([5,5,6,16], mean=mu, stddev=sigma))
+    bL2 = tf.Variable(tf.truncated_normal([16], mean=mu, stddev=sigma))
+    layer2 = tf.nn.conv2d(layer1, wL2, strides=[1,1,1,1], padding='VALID')
+    layer2 = tf.nn.bias_add(layer2, bL2)
+    
+    # Activation.
+    layer2 = tf.nn.relu(layer2)
+    
+    # Pooling. Input = 10x10x16. Output = 5x5x16.
+    layer2 = tf.nn.max_pool(layer2, ksize=[1,2,2,1], strides=[1,2,2,1], padding='VALID')
+    
+    # Flatten. Input = 5x5x16. Output = 400.
+    layer2 = flatten(layer2)
+    layer2 = tf.nn.dropout(layer2, keep_prob)
+    
+# Layer 3:
+    # Fully Connected. Input = 400. Output = 120.
+    wL3 = tf.Variable(tf.truncated_normal([400, 120], mean=mu, stddev=sigma))
+    bL3 = tf.Variable(tf.truncated_normal([120], mean=mu, stddev=sigma))
+    layer3 = tf.add(tf.matmul(layer2, wL3), bL3)
+    
+    # Activation.
+    layer3 = tf.nn.relu(layer3)
+    layer3 = tf.nn.dropout(layer3, keep_prob)
+        
+# Layer 4:
+    # Fully Connected. Input = 120. Output = 84.
+    wL4 = tf.Variable(tf.truncated_normal([120,84], mean=mu, stddev=sigma))
+    bL4 = tf.Variable(tf.truncated_normal([84], mean=mu, stddev=sigma))
+    layer4 = tf.add(tf.matmul(layer3, wL4), bL4)
+    
+    # Activation.
+    layer4 = tf.nn.relu(layer4)
+    layer4 = tf.nn.dropout(layer4, keep_prob)
+        
+# Layer 5: Output
+    # Fully Connected. Input = 84. Output = 43.
+    wL5 = tf.Variable(tf.truncated_normal([84,43], mean=mu, stddev=sigma))
+    bL5 = tf.Variable(tf.truncated_normal([43], mean=mu, stddev=sigma))
+    logits = tf.add(tf.matmul(layer4, wL5), bL5)
+    
+    return logits
+```
 
-To train the model, I used 50 epochs, bactch size of 128 and a learning rate of 0.001; dropout during training was set to 0.75; changed to 1.0 when evaluating against validation and test data sets. The optimizer used was AdamOptimizer.
+Training setup:
 
-**4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated.**
+* epochs: 50
+* batch size: 128
+* learning rate: 0.001
+* dropout during training set to 0.75 and changed to 1.0 when evaluating against validation and test data sets
+* optimizer: AdamOptimizer.
 
 My final model results were:
 
