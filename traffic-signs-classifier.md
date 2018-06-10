@@ -237,17 +237,11 @@ In the following we can see the top 5 softmax probabilities for each of the 12 n
 
 ### Visualising the Neural Network
 
-**1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?**
+While neural networks can be a great learning device they are often referred to as a black box. This is not entirely true as we can look under the hood to see how the data evolves from one layer to the other; tensorflow has the power to map all action under names and we can plot each action to understand what is happening in each layer.
 
-While neural networks can be a great learning device they are often referred to as a black box. This is not entirely true as we can look under the hood to see how the data evolves from one layer to another; tensor has the power to map all action under names and we can plot each action to have an idea of what is important at each layer.
+For instance, layer two focuses on the complete image taking into account a lot of details; as we go deeper in the network, the amount of data is smaller for each image and fewer and fewer details are considered.
 
-Layer to focusses on the complete image taking into account a lot of details; as we goo deeper in the network, the amount of data is smaller for each image and fewer and fewer details are considered.
-
-### 
-
-![](https://github.com/FlorinGh/gitbook-machine-learning/tree/2cc3c9aedecf0c5bc08b2dfd0af6eae9389a2b3e/.gitbook/assets/tsc_traffic_signs.jpg)
-
-### 
+![Visualising the Neural Network](.gitbook/assets/visualize_cnn.png)
 
 ## Results
 
