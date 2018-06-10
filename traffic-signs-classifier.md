@@ -245,5 +245,13 @@ For instance, layer two focuses on the complete image taking into account a lot 
 
 ## Results
 
-[https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier)
+Using LeNet-5 as a starting point, a neural network architecture was developed to classify the German traffic signs; several technologies were learned along the way such as: tensorflow-gpu, grayscale, normalisation, activation with RELU, dropout, how to save and recall a trained model.
+
+In the end the network performance is the following:
+
+* training set accuracy: 99.9%
+* validation set accuracy: 95.5%
+* test set accuracy: 95.0%
+
+For more details on this project visit the following github repository: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier](https://github.com/FlorinGh/SelfDrivingCar-ND-pr2-Traffic-Signs-Classifier)
 
