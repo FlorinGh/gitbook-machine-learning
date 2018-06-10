@@ -11,11 +11,7 @@ Train a convolution neural networks to clone driving behaviour using a realistic
 * train and validate the model with a training and validation set
 * test that the model successfully drives around track without leaving the road
 
-
-
 ## **Results**
 
 [https://github.com/FlorinGh/SelfDrivingCar-ND-pr3-Behavioral-Cloning](https://github.com/FlorinGh/SelfDrivingCar-ND-pr3-Behavioral-Cloning)
-
-## 
 
