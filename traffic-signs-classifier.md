@@ -84,7 +84,13 @@ X_valid = (X_valid_gray-128.0)/128.0
 X_test = (X_test_gray-128.0)/128.0
 ```
 
-* shuffle
+* shuffle: random learning ensures better model accuracy; random state ensures the same random distribution is achieved every time the code is ran; this helps in assessing improvements between two different runs
+
+```python
+# Shuffle data
+from sklearn.utils import shuffle
+X_train, y_train = shuffle(X_train, y_train, random_state=23)
+```
 
 As a first step, I decided to convert the images to grayscale because this improved the speed of the training. Grayscale by itself doesn't improve accuracy, but it helps in speeding up the proccess.
 
