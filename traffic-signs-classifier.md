@@ -206,21 +206,15 @@ My final model results were:
 
 ### Test a Model on New Images
 
-**1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.**
+To test my model I used 12 traffic signs that were not in the original data set:
 
-I used 12 traffic signs that were not in the original data set:
-
-
+![12 new images to test the trained model](.gitbook/assets/new_images.jpg)
 
 
 
-The fourth image might be difficult to classify because half of the sign is coverred in snow.
+Image no.4 might be difficult to classify because half of the sign is covered in snow. In the table below are listed the predictions using the trained network:
 
-**2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set \(OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric\).**
-
-Here are the results of the prediction:
-
-| Image | Prediction |
+| **Image** | **Prediction** |
 | :---: | :---: |
 | Go straight or left | Go straight or left |
 | Keep right | Keep right |
@@ -235,7 +229,7 @@ Here are the results of the prediction:
 | Speed limit \(50km/h\) | Speed limit \(50km/h\) |
 | Priority road | Priority road |
 
-The model was able to correctly guess 11 of the 12 traffic signs, which gives an accuracy of 91.7%. This compares favorably to the accuracy on the test set of 95.0%
+The model was able to correctly guess 11 out of 12 traffic signs, which gives an accuracy of 91.7%. This compares favourably to the accuracy on the test set of 95.0%
 
 **3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.**
 
