@@ -2,7 +2,9 @@
 
 ## **Challenge**
 
-Write a software pipeline to detect vehicles in a video taken while driving on a motorway
+Write a software pipeline to detect vehicles in a video taken while driving on a motorway:
+
+![](.gitbook/assets/project_video%20%281%29.gif)
 
 ## **Actions**
 
@@ -12,6 +14,10 @@ Write a software pipeline to detect vehicles in a video taken while driving on a
 * output a video with the detected vehicles positions drawn as bounding boxes
 
 ## **Results**
+
+
+
+![](.gitbook/assets/project_video_output%20%281%29.gif)
 
 
 
