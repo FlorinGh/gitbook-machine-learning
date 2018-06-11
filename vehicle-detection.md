@@ -2,16 +2,22 @@
 
 ## **Challenge**
 
-Write a software pipeline to detect vehicles in a video taken while driving on a motorway:
+Write a software pipeline to detect vehicles in a traffic video taken while driving on a motorway:
 
 ![](.gitbook/assets/project_video%20%281%29.gif)
 
 ## **Actions**
 
-* extract features from images using HOG \(histogram of oriented gradients\)
-* separate the images in train/test and train an SVM \(support vector machine\) classifier
-* implement a sliding window search and classify each window as vehicle or non-vehicle
-* output a video with the detected vehicles positions drawn as bounding boxes
+* Histogram of Oriented Gradients \(HOG\)
+  * we have been provided with a set of images: 8968 various traffic images, 8792 images with cars;images are color, 64x64 pixels
+  * using HOG and other techniques, extract features of these images
+  * separate the images in train/test and train a SVM classifier
+* Sliding Window Search
+  * implemented a sliding window search and classify each window as vehicle or non-vehicle
+  * run the function first on test images and afterwards against project video
+* Video Implementation
+  * output a video with the detected vehicles positions drawn as bounding boxes
+  * implement a robust method to avoid false positives \(could be a heat map showing the location of repeated detection\)
 
 ### Tools
 
