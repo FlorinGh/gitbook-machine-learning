@@ -125,7 +125,7 @@ To make the pipeline more robust we would need to fit the road with higher polyn
 
 ## **Results**
 
-All steps described below were captured in a pipeline; applying it over the frames of the traffic video renders the following result:
+All steps described above were captured in a pipeline; applying it over the frames of the traffic video renders the following result:
 
 ![](.gitbook/assets/project_video_output.gif)
 
