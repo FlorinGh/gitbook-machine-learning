@@ -2,7 +2,9 @@
 
 ## **Challenge**
 
-Write a software pipeline to identify the lane boundaries in a video taken while driving on a motorway
+Write a software pipeline to identify the lane boundaries in a video taken while driving on a motorway:
+
+![](.gitbook/assets/project_video.gif)
 
 ## **Actions**
 
@@ -16,6 +18,14 @@ Write a software pipeline to identify the lane boundaries in a video taken while
 * output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 ## **Results**
+
+
+
+![](.gitbook/assets/project_video_output.gif)
+
+
+
+
 
 [https://github.com/FlorinGh/SelfDrivingCar-ND-pr4-Advanced-Lane-Lines](https://github.com/FlorinGh/SelfDrivingCar-ND-pr4-Advanced-Lane-Lines)
 
