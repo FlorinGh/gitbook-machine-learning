@@ -19,7 +19,9 @@ The goal of this project was to create a pipeline that would analyse data in tra
 
 ### Tools
 
+This project used a combination of Python, numpy, matplotlib, openCV and moviepy; this is by definition a computer vision project. These tools are installed in a anaconda environment and ran in a Jupyter notebook.
 
+The complete project implementation is available here: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr4-Advanced-Lane-Lines](https://github.com/FlorinGh/SelfDrivingCar-ND-pr4-Advanced-Lane-Lines).
 
 ### Camera Calibration
 
