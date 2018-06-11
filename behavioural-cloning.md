@@ -79,7 +79,7 @@ The final model architecture consisted of a convolution neural network. Here is 
 
 The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track; in the end the car had no error on the track:
 
-
+![](.gitbook/assets/drive.gif)
 
  For more details on this project visit the following github repository: [https://github.com/FlorinGh/SelfDrivingCar-ND-pr3-Behavioral-Cloning](https://github.com/FlorinGh/SelfDrivingCar-ND-pr3-Behavioral-Cloning)
 
