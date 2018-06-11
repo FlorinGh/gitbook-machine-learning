@@ -2,7 +2,7 @@
 
 ## **Challenge**
 
-Train a convolution neural networks to clone driving behaviour using a realistic game to record training sets
+Train a convolution neural network to clone driving behaviour using training sets recorded in realistic video games.
 
 ## **Actions**
 
