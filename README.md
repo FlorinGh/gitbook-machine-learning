@@ -20,7 +20,7 @@
 
 ## [Self Driving Car - Behavioural Cloning Project](https://fgheorghe.gitbook.io/machine-learning/behavioural-cloning)
 
-* **Challenge**:  train a convolution neural networks to clone driving behaviour using a realistic game to record training sets
+* **Challenge**:  train a convolution neural network to clone driving behaviour using training sets recorded in realistic video games
 * **Actions**:
   * use the simulator to collect data of good driving behaviour
   * build a convolution neural network in Keras that predicts steering angles from images
