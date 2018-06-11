@@ -71,37 +71,15 @@ The final step was to run the simulator to see how well the car was driving arou
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
-The final model architecture consisted of a convolution neural network. Here is a visualization of the architecture, with the layers and layers sizes:
+The final model architecture consisted of a convolution neural network. Here is a visualisation of the architecture, with the layers and layers sizes:
 
-![Model Visualization](./output/model_architecture.jpg)
-
-**3. Creation of the Training Set & Training Process**
-
-To capture good driving behavior, I first recorded **ten** laps on track one driving clockwise, using center lane driving. Here is an example image of center lane driving:
-
-![Driving](./output/center_driving.jpg)
-
-To augment the data sat, I also flipped images and angles thinking that this would will ensure a more uniform distribution of steering decisions; this would also ensure there is a balance in steering to left and to right.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](.gitbook/assets/model_architecture.jpg)
 
 ## **Results**
 
-The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track; in the end the car had no error on the track.
+The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track; in the end the car had no error on the track:
+
+
 
 
 
