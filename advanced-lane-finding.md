@@ -8,14 +8,14 @@ The goal of this project was to create a pipeline that would analyse data in tra
 
 ## **Actions**
 
-* compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
+* compute the camera calibration matrix and distortion coefficients given a set of chessboard images
 * apply a distortion correction on the video frames and save a corrected video
 * use colour transforms and gradients to create a threshold binary image
 * apply a perspective transform to rectify binary image \("birds-eye view"\)
 * detect lane pixels and fit to find the lane boundary
 * determine lane curvature and vehicle position with respect to centre of curvature
 * warp the detected lane boundaries back onto the original perspective
-* output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+* output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position
 
 ### Tools
 
